@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>Registratsiya</h1>
+      <fieldset>
+        <legend>Form</legend>
+        <!-- chekkasiga chiqarish border bilan o'rtaga o'tkazish align  center markazga o'tkazadi-->
+        <form action="https://www.youtube.com/watch?v=RlPNh_PBZb4">
+          <!-- action submit bosilganda boradigan manzil -->
+          <label for="login">Ismingizni kiriting:</label>
+          <input
+            type="text"
+            name="login"
+            id="login"
+            placeholder="Name"
+            required
+          />
+          <!-- required doim talab qilinadigan lar -->
+          <br /><br />
+          <label for="age">Yoshingizni kiriting:</label>
+          <input type="number" name="age" id="age" placeholder="Age" step="2" />
+          <br />
+          <br />
+          <label for="city">Mamlakatni kiriting:</label>
+          <select name="" id="city">
+            <option value="uz">Uzb</option>
+            <option value="ru">Rus</option>
+            <option value="us">Usa</option>
+          </select>
+          <br /><br />
+          <label for="">resumeni yuklang</label>
+          <input type="file" />
+          <br /><br />
+          <input type="submit" value="Read" />
+          <input type="button" value="Read" />
+          <br /><br /><br />
+          <h3><b>Biladigan tillar</b></h3>
+          <label for="">Uzbek</label> <input type="checkbox" /> <br />
+          <label for="">Uzbek</label> <input type="checkbox" /> <br />
+          <label for="">Uzbek</label> <input type="checkbox" /> <br />
+          <label for="">Uzbek</label> <input type="checkbox" /> <br />
+          <br />
+          <h3>jinsini kiriting</h3>
+          <label for="male">erkak</label>
+          <input type="radio" id="male" name="i" /><br />
+          <!-- namega bir xil qiymat berish kera shunda ishlaydi yani ikkovida change bolib turadi -->
+          <label for="famale">erkak</label>
+          <input type="radio" id="famale" name="i" /><br />
+        </form>
+      </fieldset>
+    </center>
+
+    <!-- listlar haqida ichma-ich  -->
+    <ul type="none">
+      <!-- bunda .ni o'chiradi -->
+      <li>
+        salom
+        <ul>
+          <li>salom1.1</li>
+          <li>salom1.1</li>
+          <li>salom1.1</li>
+          <li>salom1.1</li>
+        </ul>
+      </li>
+      <li>
+        salom
+        <ul>
+          <li>salom2.1</li>
+        </ul>
+      </li>
+      <li>salom</li>
+      <li>salom</li>
+      <li>
+        <ul>
+          <li>alik1.3</li>
+          <li>alik1.3</li>
+          <li>alik1.3</li>
+          <li>alik1.3</li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- TABLE -->
+    <table border="1">
+      <tr>
+        <th>ism</th>
+        <th>familiya</th>
+        <th>yoshi</th>
+      </tr>
+      <tr>
+        <td>eshmat</td>
+        <td>eshmat</td>
+        <td>eshmat</td>
+      </tr>
+      <tr>
+        <td>eshmat</td>
+        <td>eshmat</td>
+        <td>eshmat</td>
+      </tr>
+      <tr>
+        <td>eshmat</td>
+        <td>eshmat</td>
+        <td>eshmat</td>
+      </tr>
+    </table>
+
+    <!-- table project -->
+    <!-- 1 -->
+    <table>
+      <tr>
+        <th>lorem</th>
+        <th>lorem</th>
+      </tr>
+      <tr>
+        <td>lorem</td>
+        <td>lorem</td>
+      </tr>
+    </table>
+    <!-- 2 -->
+    <br /><br />
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <table border="1" width="500">
+      <tr>
+        <th rowspan="2">5</th>
+        <th colspan="2">8</th>
+        <th rowspan="2">6</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th>1</th>
+      </tr>
+      <tr>
+        <th>lorem</th>
+        <td>45</td>
+        <td>45</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <th>lorem</th>
+        <td>45</td>
+        <td>45</td>
+        <td>45</td>
+      </tr>
+    </table>
+  </body>
+</html>
